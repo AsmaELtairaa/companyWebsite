@@ -1,0 +1,392 @@
+
+*
+{
+box-sizing: border-box;
+margin: 0px;
+padding: 0px;
+}
+/*   .navbar  */  
+.navbar
+{
+background-color:rgba(0, 0, 0,0.7);
+display: flex;
+flex-direction: row;
+flex-wrap: nowrap;
+justify-content: space-between;
+padding: 18px 40px;
+width: 100%;
+position: fixed;
+z-index: 6;
+}
+
+.logo_contenar
+{
+
+/*background-color: green;*/
+    width: 8%;
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: "Raleway", sans-serif;
+    text-align: center;
+    margin-left: 20px;
+}
+
+.nav_list
+{
+   /*background-color: red;*/
+    width: 50%;
+}
+.nav_list ul{
+    list-style: none;
+    padding: 8px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+
+.navbar a  
+{
+text-decoration: none;
+
+
+}
+.navbar a , .main h1
+{
+
+color: #fff;
+
+
+}
+.navbar .nav_list a
+{
+    font-size: 15px;
+    font-weight: 600;
+
+}
+
+.navbar .btn  , .nav_list 
+{
+    font-family: "Open Sans", sans-serif;
+}
+
+.navbar .nav_list a:hover , .main .icon-box a:hover
+{
+    color: #ffc451;
+}
+
+.navbar .btn:hover
+{
+
+background-color: #ffc451;
+color:rgb(60, 66, 71);
+transition:background-color ,0.3s ,color 0.3;
+}
+
+
+.navbar .logo_contenar span , .main span
+{
+
+    color: #ffc451;
+}
+.navbar .btn
+{
+    border-radius: 4px;
+    font-size: 14px;
+    padding: 8px 20px 0px;
+    border: 2px solid #ffc451;
+    margin-right: 40px;
+}
+
+.navbar .btn a
+{
+
+/*background-color: aqua;*/
+}
+
+/* ================================================= main Section =================================================*/
+
+.main {
+    position: relative;
+    background-attachment: fixed;
+    width: 100%;
+    min-height: 100vh;
+    background:url(../img/hero-bg.jpg);
+    /*background-color: blue;*/
+    background-size: cover;
+  background-color: hotpink;
+}
+
+.mainimg
+{
+background: rgba(0, 0, 0, 0.6);
+position: absolute;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+display: flex;
+flex-direction:row;
+flex-wrap: wrap;
+align-items: center;
+}
+
+
+
+.main .box , .title 
+{
+
+   /* background-color: #ffc451;*/
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%; 
+  
+}
+.main .title
+{
+   
+    /*background-color: darkcyan;*/
+    width: 100%;
+
+}
+.main .boxandtitle
+{
+    /*background-color: yellowgreen;*/
+    width: 100%;  
+  
+}
+
+.main .intitle
+{  
+/*background-color: red;*/
+text-align: center;
+width:40%;
+
+
+}
+
+.main h1
+{
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 64px;
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+
+
+}
+.main h2{
+    color: rgba(255, 255, 255, 0.9);
+    margin-top: 10px;
+    padding-bottom: 10px;
+    font-size: 24px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+
+.main .box
+{
+  /* background-color: azure;*/
+  margin-top: 48px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.mainrow2
+{
+
+/*background-color: pink;*/
+text-align: center;
+width: 16%;
+padding-left:  12px;
+padding-right: 12px;
+}
+
+.main h3 
+{
+    font-weight: 700;
+    margin-top: 10px;
+    font-size: 20px;
+    line-height: 26px;
+    font-family: "Raleway", sans-serif;
+}
+.main .mainrow2 a{
+    color: #fff;
+    text-decoration: none;
+
+}
+
+
+.main .icon-box
+{ /*background-color: blue;*/
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 33px 30px ;
+    height: 100%;
+    text-align: center;  
+    font-size: 32px;
+    line-height: 1;
+    color: #ffc451;
+}
+.main .icon-box , .icon-box a
+{
+
+    transition: ease-in-out 0.3s;
+}
+.main .icon-box:hover
+{
+border:1px solid #ffc451;
+
+
+}
+.main .inbox
+{
+/*background-color: darkorange;*/
+
+}
+
+/*---------------------------------------    section2 ------------------------------------------------------*/
+
+.sec2 , .sec4 , .sec5
+{
+    width: 85%;
+padding: 50px 0 ;
+/*background-color: #ffc451;*/
+margin: auto;
+}
+.sec4{
+
+    padding-bottom: 50px;
+}
+.sec2 .row , .sec4 .row
+{
+ /* background-color: blue;*/
+  display: flex;
+  flex-wrap: wrap;
+}
+.sec2 .insec2 h3{
+    font-weight: 700;
+    font-size: 28px;
+    font-family: "Poppins", sans-serif;
+}
+.sec2 h3 , .sec4 h4
+{
+
+   color: rgb(33, 37, 41);
+   margin-bottom: 8px;
+}
+.sec2  p , li , .sec4 p
+{
+    
+    font-family: "Open Sans", sans-serif;
+    color:rgb(68, 68, 68);
+}
+.sec2 .img1 , .sec4 .image
+{
+ /*   background-color: aqua;*/
+ width: 50%;
+
+}
+.sec2 img , .sec4 img
+{
+
+width: 100%;
+}
+.sec2 .paragraf , .sec4 .iconbox2
+{
+   /* background-color: pink;*/
+    width: 50%;
+   padding-right: 27px;
+}
+
+.paragraf .p1 
+{
+    font-style: italic;
+    margin-bottom: 16px;
+}
+
+.paragraf ul li , .sec4 .iconbox2
+{
+    list-style: none;
+    padding: 0 0 8px 26px;
+}
+
+.paragraf ul{
+
+    margin-bottom: 16px;
+}
+
+/*-----------------------------------------------sec3 -----------------------------------------*/
+
+.sec3 .icons
+{
+  /*  background-color: red;*/
+  margin: auto;
+    position: relative;
+    width: 85%;
+    padding-bottom: 50px;
+
+
+}
+.sec3 .img-fluid 
+{
+    /*background-color: yellow;*/
+    width:48%;
+}
+
+.sec3 .img-fluid img
+{
+  background-color: blue;
+    width: 100%;
+    
+}
+.sec3 .inicons
+{
+/*background-color: rgb(3, 18, 3);*/
+width: 90%;
+margin: auto;
+margin-top: 0px;
+display: flex;
+flex-wrap: nowrap;
+flex-direction: row;
+justify-content: center;
+
+}
+
+.sec3 .grop-span h3
+{
+    font-size: 60px;
+    line-height: 10px;
+    height: 20px;
+   color: #ddd;
+   margin-left: 3px;
+   margin-right: 3px;
+cursor: pointer;
+}
+.sec3 .grop-span i
+{
+  margin: auto;
+  display: flex;
+flex-direction: row;
+flex-wrap: nowrap;
+justify-content: center;
+padding: 0px 20px;
+}
+
+.sec3
+{
+
+    background-color: #ffc451;
+}
+
+.i{
+background-color: #fff;
+
+background-color: red;
+width: 100%
+
+}
